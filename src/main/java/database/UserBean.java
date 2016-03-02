@@ -18,9 +18,6 @@ public class UserBean {
         ResultSet rs = null;
         try
         {
-            //Class.forName("com.mysql.jdbc.Driver");
-            //con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbtest?autoReconnect=true&useSSL=true", "root", "root");
-
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbtest?autoReconnect=true&useSSL=true", "root", "root");
 
